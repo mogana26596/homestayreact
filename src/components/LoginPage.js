@@ -36,11 +36,11 @@ return(
                         <div className="card-body">
                           <form onSubmit={handleSubmit}>
                               <label for="email" className="email mb-3"><b>Email</b></label><br/>
-                              <input type="email" className="email mb-3" placeholder="name@example.com" 
+                              <input type="email" className="email mb-3" placeholder="user123@gmail.com" 
                                   value={formData.email} onChange={(e) => setFormData({...formData, email:e.target.value})}  /><br/>
   
                               <label for="password" className="password mb-3"><b>Password</b></label><br/>
-                              <input type="password" className="password mb-3" placeholder="Password" 
+                              <input type="password" className="password mb-3" placeholder="user123" 
                                  value={formData.password} onChange={(e) => setFormData({...formData, password:e.target.value})}   /><br/>
   
                               <button  type="Login" className="btn btn-primary mb-3" style={{marginLeft:"20px"}} >Login</button><br/>
